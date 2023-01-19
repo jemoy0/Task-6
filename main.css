@@ -57,6 +57,11 @@ header img {
     height: 140px;
     border-radius: 50%;
     border: 2px solid #000;
+    transition: 0.5s;
+}
+
+header img:hover {
+    transform: scale(1.2) rotate(5deg);
 }
 
 .text {
